@@ -66,7 +66,7 @@ function dateFunction(d){
 
 const element = document.querySelector('.main-container');
 const rand = Math.floor(Math.random()*100000);
-element.style.background = `url(https://picsum.photos/seed/${rand}/800/800)`;
+element.style.background = `url(https://picsum.photos/1200/1200)`;
 const today = new Date();
 const date = document.querySelector('.date');
 date.innerText = dateFunction(today);

@@ -4,8 +4,8 @@
   --white: #fff;
   --black: #1c2b2d;
   --blue: #31326f;
-  --light-blue: #005490;
-  --color-primary: #9d0191;
+  --light-blue: #4dadf2;
+  --color-primary: #fa70ef;
   --color-sec: #d26002;
   --grey: #eee;
   --dark-grey: #222831;
@@ -85,7 +85,7 @@ body {
 
 .top input{
   background-color: rgba(0,0,0,0.5);
-  border-bottom: solid 2px green;
+  border-bottom: solid 2px white;
   border-radius: 10px 0 10px 0;
   text-align: center;
   font-size: 14px;
@@ -93,7 +93,7 @@ body {
 
 .top input:focus{
   color: white;
-  font-size: 15px;
+  border-bottom: solid 4px white;
 
 }
 
