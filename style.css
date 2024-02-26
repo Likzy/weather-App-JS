@@ -32,6 +32,9 @@ body {
   font-size: 16px;
 }
 
+/* background-image {
+  filter: invert(95%) hue-rotate(180deg) !important;
+} */
 
 .container {
   width:80%;
@@ -46,6 +49,7 @@ body {
   width: clamp(200px, 70%, 800px);
   height: 80vh;
   background: url(https://picsum.photos/seed/mvdfsdm/319/436) no-repeat center;
+  filter: invert(95%) hue-rotate(180deg) !important;;
   background-size: cover;
   border-radius: 10px;
   overflow: hidden;
